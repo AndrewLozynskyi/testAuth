@@ -1,0 +1,13 @@
+@import url("AdminPage.css");
+@import url("App.css");
+@import url("Home.css");
+@import url("Login.css");
+@import url("Signup.css");
+
+body{
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+     font-size: 14px; 
+     line-height: 1.42857143; 
+     color: #333; 
+     background-color: #fff; 
+}

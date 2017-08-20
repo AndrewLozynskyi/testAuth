@@ -1,0 +1,92 @@
+.navbar-default{
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navbar {
+        width: 100%;
+    border-radius: 5px;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+@media (min-width: 768px)
+.navbar {
+    border-radius: 4px;
+}
+.nav {
+    display: inline-flex;
+    float: right;;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav>li>a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;}
+    a{
+            text-decoration: none;
+    }
+    a:active {
+    color: none;
+}
+
+@media (min-width: 768px)
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.content {
+    position: absolute;
+    background-color: #e7e7e7;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+div.side {
+    width: 180px;
+    padding: 10px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    color: black;
+    list-style-type: none;
+    padding: 12px;
+}
+
+.btn-menu {
+    width: 200px;
+    display: block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-top-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}

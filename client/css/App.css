@@ -1,0 +1,47 @@
+.navbar-default{
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navbar {
+        width: 100%;
+    border-radius: 5px;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+@media (min-width: 768px)
+.navbar {
+    border-radius: 4px;
+}
+.nav {
+    display: inline-flex;
+    float: right;;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav>li>a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;}
+    a{
+            text-decoration: none;
+            color: #777;
+    }
+    a:active {
+    color: none;
+}
+
+@media (min-width: 768px)
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
